@@ -13219,10 +13219,10 @@ Structure your answer in the same format as above^, with 4 parts for each of the
 </ul>
 </blockquote>
 <p>SVM is the model wich is Effective in high dimensional spaces.</p>
-<p>[1] <a href="http://www.vision.caltech.edu/html-files/EE148-2005-Spring/pprs/viola04ijcv.pdf">http://www.vision.caltech.edu/html-files/EE148-2005-Spring/pprs/viola04ijcv.pdf</a> 
-<br>[2] <a href="https://ac.els-cdn.com/S1875389212005767/1-s2.0-S1875389212005767-main.pdf?_tid=386d6e81-5291-42b0-8deb-fe755cdf673f&amp;acdnat=1523810550_a6f996fc793034e8711f8e800db68803">https://ac.els-cdn.com/S1875389212005767/1-s2.0-S1875389212005767-main.pdf?_tid=386d6e81-5291-42b0-8deb-fe755cdf673f&amp;acdnat=1523810550_a6f996fc793034e8711f8e800db68803</a>
-<br>[3]<a href="http://scikit-learn.org/stable/modules/svm.html">http://scikit-learn.org/stable/modules/svm.html</a>
-<br>[4]<a href="https://www.researchgate.net/post/When_we_use_Support_Vector_machine_for_Classification">https://www.researchgate.net/post/When_we_use_Support_Vector_machine_for_Classification</a></p>
+<p>[1] <a href="http://www.vision.caltech.edu/html-files/EE148-2005-Spring/pprs/viola04ijcv.pdf">http://www.vision.caltech.edu/html-files/EE148-2005-Spring/pprs/viola04ijcv.pdf</a> <br>
+[2] <a href="https://ac.els-cdn.com/S1875389212005767/1-s2.0-S1875389212005767-main.pdf?_tid=386d6e81-5291-42b0-8debfe755cdf673f&amp;acdnat=1523810550_a6f996fc793034e8711f8e800db68803">https://ac.els-cdn.com/S1875389212005767/1-s2.0-S1875389212005767-main.pdf?_tid=386d6e81-5291-42b0-8debfe755cdf673f&amp;acdnat=1523810550_a6f996fc793034e8711f8e800db68803</a><br>
+[3]<a href="http://scikit-learn.org/stable/modules/svm.html">http://scikit-learn.org/stable/modules/svm.html</a><br>
+[4]<a href="https://www.researchgate.net/post/When_we_use_Support_Vector_machine_for_Classification">https://www.researchgate.net/post/When_we_use_Support_Vector_machine_for_Classification</a></p>
 
 </div>
 </div>
@@ -14203,7 +14203,7 @@ Adaboost is work as below: <br>
 1.First, the input data are initailized with the same weight. Weak learner will fit a subsample of the data and make prdeiction for all the data.<br>
 2.Update the weights of input data based on previous run, and  weights are higher for wrongly classfied input data. The weak  learner will be forced to focus on the hard example in the training set, which has higher weight.<br> 
 3.After several iterations have been completed, we combine weak rules to form a single rule, which will then be used as our model.<br>
-The Weak Learner used by AdaBoost is Decision Stump. Decision Stump is decision trees with two leaves(one-level decision tree), which cuts a horizontal or vertical line in the plane.</p>
+Weak Learner a simple rule-of-the-thumb classifier that doesn’t necessarily work very well. It will always do better than random guessing, when it tries to label the data, no matter what the distribution over the training data is. Doing better than chance means we are always going to have an error rate which is less than 1/2. The Weak Learner used by AdaBoost is Decision Stump. Decision Stump is decision trees with two leaves(one-level decision tree), which cuts a horizontal or vertical line in the plane.</p>
 <p>I think AdaBoostClassifier is the most approriate solution. Adaboost and DecisionTree both have lower training time anf testing time than SVC. Three of solutions have high accuracy, but  Decision Tree classifier is kinf of overfitting. In terms of Fbeta score, adaboost is outperform the other two. The adaboost was the first successful boosting algorithm developed for binary classification. This project is to find someone with income greater than 50K and less than 50K. Adaboost is sensitive to noisy data so data clean or not is very important. The dataset in this project is quite clean. As mentioned above, I think adaboost is good candidate for the problem.</p>
 
 </div>
